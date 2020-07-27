@@ -1,0 +1,69 @@
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+* {
+    margin: 0;
+    padding 0;
+    box-sizing border-box;
+}
+
+html  {
+    font-size: 15px;
+}
+
+body {
+    background: url('./anis-fagun.jpg')
+    background-position: 0 1000px;
+font-family: 'Roboto', sans-sarif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: center;
+    
+}
+
+h1 {
+    color: #1771F1;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #1771F1;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 6px;
+    margin-bottom: 1rem;
+}
+
+image {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+p {
+    font-size: 2rem;
+    color: #ff6200;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+}
+
+btn {
+    display: inline-block;
+    padding: 2.7rem 7.5rem;
+    background: #ff6200;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #01f3b7;
+    border-radius: 10px;
+    transition: background 0.5s;
+    }
+
+    btn:hover {
+        background: #dadada;
+    }
